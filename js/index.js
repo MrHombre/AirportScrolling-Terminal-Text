@@ -10,7 +10,7 @@ var fulltext = []; //Current held text, not always correct
 var actualtext = ""; //Text displayed inside .switcher .display
 var latch = true; //Just a fail safe to not skip a word
 
-setInterval(flicker,36); //This is how fast the characters switch, it looks best at 40 - but at 40 the text says 'A FLIGHT T7 REMEMBER' when it pauses on the preview and I couldn't have that happening now could I?
+setInterval(flicker,36); //This is how fast the characters switch, it looks best at 40 
 
 write();
 function write() {
